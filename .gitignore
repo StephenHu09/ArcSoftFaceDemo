@@ -1,16 +1,40 @@
-# C++ objects and libs
+# Prerequisites
+*.d
+
+# Compiled Object files
 *.slo
 *.lo
 *.o
-*.a
-*.la
-*.lai
-*.so
-*.so.*
-*.dll
-*.dylib
+*.obj
 
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+#*.so
+#*.dylib
+#*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+#*.lai
+#*.la
+#*.a
+#*.lib
+
+# Executables
+#*.exe
+*.out
+#*.app
+
+# QT project
 # Qt-es
+debug
+release
 object_script.*.Release
 object_script.*.Debug
 *_plugin_import.cpp
@@ -45,10 +69,14 @@ target_wrapper.*
 # QtCreator CMake
 CMakeLists.txt.user*
 
-# QtCreator 4.8< compilation database
+# QtCreator 4.8< compilation database 
 compile_commands.json
 
 # QtCreator local machine specific files for imported projects
 *creator.user*
 
 *_qmlcache.qrc
+
+
+# ArcFace Lib
+libarcsoft_face*.*
